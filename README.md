@@ -110,7 +110,7 @@ License
 Distributed under the MIT License. See LICENSE for more information.
 
 Contact
-Your Name - @ArunaMaddu - madduaruna134gamil.com
+Your Name - @ArunaMaddu - madduaruna134@gamil.com
 
 Project Link: https://arunamaddu.github.io/Digital-Clock/
 ## 🌟 Show Your Support
