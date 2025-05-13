@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme (Default) */
+body.light {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Dark Theme */
+body.dark {
+    background: #121212;
+    color: #f5f5f5;
+}
+
+.clock-container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+body.dark .clock-container {
+    background: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.clock {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+body.light button {
+    background: #e0e0e0;
+}
+
+body.dark button {
+    background: #333;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
